@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Do'kon</title>
+<style>
+body {font-family: Arial; margin:0; background:#f4f4f4;}
+header {background:#111; color:white; padding:15px; text-align:center;}
+.products {display:flex; flex-wrap:wrap; justify-content:center; padding:20px;}
+.card {
+    background:white;
+    width:250px;
+    margin:15px;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.1);
+    text-align:center;
+}
+.card img {width:100%; border-radius:10px;}
+button {
+    background:#28a745;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    cursor:pointer;
+    border-radius:5px;
+}
+button:hover {background:#218838;}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Mening Online Do'konim</h1>
+</header>
+
+<div class="products">
+
+<div class="card">
+<img src="https://via.placeholder.com/250" alt="Mahsulot">
+<h3>Mahsulot 1</h3>
+<p>150 000 so'm</p>
+<button onclick="buy()">Sotib olish</button>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/250" alt="Mahsulot">
+<h3>Mahsulot 2</h3>
+<p>250 000 so'm</p>
+<button onclick="buy()">Sotib olish</button>
+</div>
+
+</div>
+
+<script>
+function buy() {
+    alert("Buyurtma uchun +998901234567 ga qo'ng'iroq qiling!");
+}
+</script>
+
+</body>
+</html>
